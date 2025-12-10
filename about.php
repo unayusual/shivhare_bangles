@@ -1,4 +1,7 @@
 <?php
+$page_title = "About Us";
+$meta_description = "Learn about Shivhare Bangle Store, a trusted name in Firozabad's glass bangle industry since inception. Meet our founder and executive director.";
+$og_image = "assets/images/about-preview.png";
 include 'includes/header.php';
 ?>
 

@@ -206,3 +206,30 @@ footer a:hover {
     font-family: var(--font-heading);
     color: var(--primary-color);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh; /* Smaller hero on mobile */
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem; /* Smaller font */
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .section-padding {
+        padding: 2.5rem 0; /* Less whitespace */
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}

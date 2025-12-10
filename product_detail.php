@@ -42,6 +42,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_inquiry'])) {
     } catch (PDOException $e) { /* Ignore */ }
 }
 
+// SEO Meta Tags
+if ($product) {
+    $page_title = $product['name'];
+    $meta_description = substr(strip_tags($product['description']), 0, 160) . "...";
+    if ($product['image_path']) {
+        $og_image = "uploads/" . $product['image_path'];
+    }
+}
+
 include 'includes/header.php';
 ?>
 

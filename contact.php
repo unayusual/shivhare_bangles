@@ -25,6 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
+// SEO Meta Tags
+$page_title = "Contact Us";
+$meta_description = "Get in touch with Shivhare Bangle Store in Firozabad. Call us at +91 78178 53821 for wholesale inquiries and bulk orders.";
+
 include 'includes/header.php';
 ?>
 

@@ -24,6 +24,10 @@ try {
     $products = $stmt->fetchAll();
 } catch (PDOException $e) { /* Ignore */ }
 
+// SEO Meta Tags
+$page_title = "Our Collection";
+$meta_description = "Browse our extensive collection of wholesale glass bangles. Filter by category: Bridal, Daily Wear, Party Wear, and more. Best prices in Firozabad.";
+
 include 'includes/header.php';
 ?>
 

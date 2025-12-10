@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config/
+Allow: /
+
+Sitemap: http://shivharebangles.com/sitemap.xml

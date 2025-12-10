@@ -12,6 +12,10 @@ try {
     // error_log($e->getMessage());
 }
 
+// SEO Meta Tags
+$meta_description = "Shivhare Bangle Store is a leading manufacturer and wholesaler of glass bangles in Firozabad. Explore our latest bridal and daily wear collection.";
+$og_image = "assets/images/hero-bg.jpg";
+
 include 'includes/header.php';
 ?>
 
