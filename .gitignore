@@ -1,0 +1,10 @@
+.DS_Store
+*.zip
+validation_report.md
+preview_*.html
+setup_env.sh
+.gemini/
+.agent/
+shivhare_bangles_preview/
+__pycache__/
+*.log
