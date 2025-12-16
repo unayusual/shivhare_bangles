@@ -21,12 +21,18 @@ include 'includes/header.php';
 
 <!-- Hero Section -->
 <section class="hero">
+    <div class="hero-slider">
+        <div class="hero-slide" style="background-image: url('assets/images/hero-bg-1.png');"></div>
+        <div class="hero-slide" style="background-image: url('assets/images/hero-bg-2.png');"></div>
+        <div class="hero-slide" style="background-image: url('assets/images/hero-bg-3.png');"></div>
+    </div>
     <div class="hero-content">
         <h1>Timeless Elegance in Glass</h1>
         <p>Discover the finest collection of wholesale glass bangles. Tradition meets modern craftsmanship.</p>
         <a href="products.php" class="btn btn-primary btn-lg me-3">Explore Collection</a>
         <a href="contact.php" class="btn btn-outline-light btn-lg">Contact Us</a>
     </div>
+    <div class="hero-overlay"></div>
 </section>
 
 <!-- Features Section -->
